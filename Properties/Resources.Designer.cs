@@ -1,0 +1,144 @@
+
+namespace Chess.Properties {
+    using System;
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    internal class Resources {
+        
+        private static global::System.Resources.ResourceManager resourceMan;
+        
+        private static global::System.Globalization.CultureInfo resourceCulture;
+        
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal Resources() {
+        }
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Chess.Properties.Resources", typeof(Resources).Assembly);
+                    resourceMan = temp;
+                }
+                return resourceMan;
+            }
+        }
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
+                return resourceCulture;
+            }
+            set {
+                resourceCulture = value;
+            }
+        }
+        internal static System.Drawing.Bitmap AvailableMoveDot {
+            get {
+                object obj = ResourceManager.GetObject("AvailableMoveDot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap BBishop {
+            get {
+                object obj = ResourceManager.GetObject("BBishop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap BKing {
+            get {
+                object obj = ResourceManager.GetObject("BKing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap BKnight {
+            get {
+                object obj = ResourceManager.GetObject("BKnight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap BPawn {
+            get {
+                object obj = ResourceManager.GetObject("BPawn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap BQueen {
+            get {
+                object obj = ResourceManager.GetObject("BQueen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap BRook {
+            get {
+                object obj = ResourceManager.GetObject("BRook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.IO.UnmanagedMemoryStream Capture {
+            get {
+                return ResourceManager.GetStream("Capture", resourceCulture);
+            }
+        }
+        internal static System.IO.UnmanagedMemoryStream Castle {
+            get {
+                return ResourceManager.GetStream("Castle", resourceCulture);
+            }
+        }
+        internal static System.IO.UnmanagedMemoryStream Check {
+            get {
+                return ResourceManager.GetStream("Check", resourceCulture);
+            }
+        }
+        internal static System.IO.UnmanagedMemoryStream GameOver {
+            get {
+                return ResourceManager.GetStream("GameOver", resourceCulture);
+            }
+        }
+        internal static System.IO.UnmanagedMemoryStream IllegalMove {
+            get {
+                return ResourceManager.GetStream("IllegalMove", resourceCulture);
+            }
+        }
+        internal static System.IO.UnmanagedMemoryStream Move {
+            get {
+                return ResourceManager.GetStream("Move", resourceCulture);
+            }
+        }
+        internal static System.Drawing.Bitmap WBishop {
+            get {
+                object obj = ResourceManager.GetObject("WBishop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap WKing {
+            get {
+                object obj = ResourceManager.GetObject("WKing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap WKnight {
+            get {
+                object obj = ResourceManager.GetObject("WKnight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap WPawn {
+            get {
+                object obj = ResourceManager.GetObject("WPawn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap WQueen {
+            get {
+                object obj = ResourceManager.GetObject("WQueen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        internal static System.Drawing.Bitmap WRook {
+            get {
+                object obj = ResourceManager.GetObject("WRook", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+    }
+}

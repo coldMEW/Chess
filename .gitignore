@@ -1,0 +1,13 @@
+.vs/
+bin/
+obj/
+CleanupCandidates/
+NotForSubmission/
+TempBuild/
+VerifyBuild/
+
+Chess.Tests/
+Docs/
+
+*.user
+*.suo
