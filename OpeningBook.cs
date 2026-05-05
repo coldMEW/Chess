@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Chess
 {
     // Gives the high-difficulty bot a small opening library from Openings.txt.
     class OpeningBook
     {
-        public static string[] MoveList = System.IO.File.ReadAllLines("Openings.txt");
+        private static readonly string OpeningBookPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Openings.txt");
+        public static string[] MoveList = File.ReadAllLines(OpeningBookPath);
         public static List<string> LinesAvailable = new List<string>();
         public static string MovesPlayed = "";
 

@@ -136,7 +136,9 @@
     <Content Include="Piece Images\White\WPawn.png" />
     <Content Include="Piece Images\White\WQueen.png" />
     <Content Include="Piece Images\White\WRook.png" />
-    <Content Include="Openings.txt" />
+    <Content Include="Openings.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
