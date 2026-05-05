@@ -23,7 +23,3 @@ The project supports:
 1. Open `Chess.sln` in Visual Studio.
 2. Build the solution.
 3. Run the `Chess` project.
-
-## Notes
-
-- local build output and extra folders are not part of the repo.
